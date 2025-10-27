@@ -8,11 +8,11 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.osmanproj.app
+        bundle_identifier: com.chicknspook.app
       vars:
-        BUNDLE_ID: "com.osmanproj.app"
-        XCODE_WORKSPACE: "ChicknRabbitFarm.xcworkspace" # <-- Put the name of your Xcode workspace here
-        XCODE_SCHEME: "ChicknRabbitFarm" # <-- Put the name of your Xcode scheme here
+        BUNDLE_ID: "com.chicknspook.app"
+        XCODE_WORKSPACE: "ChicknSpook.xcworkspace" # <-- Put the name of your Xcode workspace here
+        XCODE_SCHEME: "ChicknSpook" # <-- Put the name of your Xcode scheme here
         APP_STORE_APPLE_ID: 6754281577
       xcode: latest
       cocoapods: default
