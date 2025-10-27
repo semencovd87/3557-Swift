@@ -4,7 +4,7 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m1
     integrations:
-      app_store_connect: chirafarm
+      app_store_connect: spooky
     environment:
       ios_signing:
         distribution_type: app_store
@@ -13,7 +13,7 @@ workflows:
         BUNDLE_ID: "com.chicknspook.app"
         XCODE_WORKSPACE: "ChicknSpook.xcworkspace" # <-- Put the name of your Xcode workspace here
         XCODE_SCHEME: "ChicknSpook" # <-- Put the name of your Xcode scheme here
-        APP_STORE_APPLE_ID: 6754281577
+        APP_STORE_APPLE_ID: 6754383465
       xcode: latest
       cocoapods: default
     scripts:
